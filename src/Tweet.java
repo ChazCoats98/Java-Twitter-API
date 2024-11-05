@@ -25,5 +25,37 @@ public class Tweet {
         this.timestamp = timestamp;
     }
 
+    /**
+     * @return unique identifier of this tweet
+     */
+    public long getId() {
+        return id;
+    }
+
+    /**
+     * @return Twitter username of author
+     *          A Twitter username is a nonempty sequence of letters (A-Z or a-z),
+     *          digits, underscore ("_"), or hyphen ("-").
+     *          Twitter usernames are case-insensitive, so "twitteruser" and "TwitterUser"
+     *          are equivalent.
+     */
+    public String getUsername() {
+        return username;
+    }
+
+    /**
+     * @return text of this tweet, at most 280 characters
+     */
+    public String getText() {
+        return text;
+    }
+
+    /**
+     * @return date/time when this tweet was sent
+     */
+    public Instant getTimestamp() {
+        return timestamp;
+    }
+
 
 }
