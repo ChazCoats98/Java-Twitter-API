@@ -8,12 +8,12 @@ public class Tweet {
 
     /**
      * @param id
-     *          Unique identifier for the tweet.
+     *              Unique identifier for the tweet.
      * @param username
      *              Username of author of the tweet.
      *              Required to be a Twitter username as defined by getAuthor() below.
      * @param text
-     *          Text of the tweet, at most 280 characters.
+     *              Text of the tweet, at most 280 characters.
      * @param timestamp
      *              date/time when the tweet was sent.
      */
@@ -56,6 +56,4 @@ public class Tweet {
     public Instant getTimestamp() {
         return timestamp;
     }
-
-
 }
